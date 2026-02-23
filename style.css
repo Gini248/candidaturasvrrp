@@ -1,0 +1,132 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo com imagem */
+body {
+    background-image: url('imagens/fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(3px);
+}
+
+/* Navbar */
+nav {
+    background: #18181d;
+    color: white;
+    padding: 0 2rem;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotipo img {
+    height: 40px;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: #1e8046;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #28a745;
+}
+
+/* Painel Centralizado */
+.recipiente {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel {
+    background: #18181da8;
+    border: 2px solid #1e8046;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 25%;
+    height: 80%;
+}
+
+.imagem-docs {
+    width: 90%;
+    margin-bottom: 20px;
+}
+.logo2 {
+    width: 90%;
+    margin-top: 13%;
+}
+
+/* Itens de Documento */
+.item-docs {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid #1e8046;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.nome-docs {
+    color: #ffffff;
+    font-size: 110%;
+}
+
+.acoes-docs {
+    display: flex;
+    gap: 8px;
+}
+
+/* Botões */
+.botao-docs {
+    padding: 6px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #1e8046;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.botao-docs:hover {
+    background: #28a745;
+}
+
+/* Esticar o último botão */
+.esticar {
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-left: 15px;
+}
+
+.esticar .botao-docs {
+    width: 57.5%;
+    justify-content: center;
+}
