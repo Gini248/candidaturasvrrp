@@ -8,7 +8,7 @@
 
 /* Fundo com imagem */
 body {
-    background-image: url('imagens/fundo.png');
+    background-image: url('VRRP/imagens/fundo.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -129,4 +129,5 @@ nav a:hover {
 .esticar .botao-docs {
     width: 57.5%;
     justify-content: center;
+
 }
