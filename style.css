@@ -52,7 +52,7 @@ nav a:hover {
 }
 
 /* Painel Centralizado */
-.recipiente {
+.modall {
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -131,3 +131,4 @@ nav a:hover {
     justify-content: center;
 
 }
+
